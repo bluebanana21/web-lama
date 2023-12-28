@@ -45,7 +45,7 @@ data_social_media.forEach(element => {
     socialmediaHeader.innerHTML +=
     `<ul>
     <li>
-        <a href="">
+        <a href="https://www.instagram.com/muhammad_affan_fahrozi/">
             <iconify-icon icon="uil:instagram-alt" style="color:rgb(50, 130, 184);"></iconify-icon>
         </a>
     </li>
