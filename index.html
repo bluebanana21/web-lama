@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>portfolio Affan</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
 </head>
 
@@ -40,7 +42,7 @@
     <div id="home" class="hero">
         <div class="main-hero">
             <h1>dumb ass <br>portfolio website </h1>
-            <p>paranoid</p>
+            <p class="animate__animated animate__flash">paranoid</p>
             <button class="read-more">
                 get started
             </button>
@@ -70,14 +72,14 @@
         </div>
     </div>
 
-    <div id="skill" class="container-skill">
+    <div id="skill" class="container-skill" >
         <div class="header-skill">
             <p style="color: rgb(243, 249, 180);">Skills</p>
             <h1 style="color: rgb(243, 249, 180);">my Skills</h1>
             <p style="color: rgb(243, 249, 180);">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio,
                 quas deserunt? Dolorum explicabo nulla asperiores!</p>
         </div>
-        <div class="skill">
+        <div class="skill" data-aos="fade-up" data-aos-duration="1500">
             <div class="card-skill">
                 <div class="icon-skill">
                     <iconify-icon icon="logos:blender"></iconify-icon>
@@ -127,8 +129,12 @@
         <p>&copy; 2023 Made by Affan</p>
     </div>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <script src="script.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
