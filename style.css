@@ -111,6 +111,19 @@ nav {
     font-size: 70px;
 }
 
+.button-start {
+    background-color: rgb(35, 39, 46);
+    padding: 0px;
+    border: none;
+    outline: none;
+    margin: 10px;
+}
+
+.read-more{
+    padding: 10px auto;
+    font-size:180px ;
+}
+
 .about {
     padding: 70px;
     box-sizing: border-box;
@@ -345,7 +358,7 @@ nav {
     background-color: rgb(20, 11, 25);
     padding: 120px 0px 40px;
     text-align: center;
-    color: rgb(229,229,229);
+    color: rgb(229, 229, 229);
 }
 
 .footer h1,
@@ -365,7 +378,7 @@ nav {
         justify-content: space-between;
         border-radius: 10px;
         box-shadow: 0px -9px 10px -3px rgb(10, 47, 71),
-                    0px 10px 10px -3px rgb(10, 47, 71), ;
+            0px 10px 10px -3px rgb(10, 47, 71), ;
     }
 
     .img-hero {
@@ -377,25 +390,25 @@ nav {
         text-align: center;
     }
 
-    .container-project{
+    .container-project {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .project:nth-child(odd), .project:nth-child(even){
+    .project:nth-child(odd),
+    .project:nth-child(even) {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .desc-project{
+    .desc-project {
         width: 90%;
         margin-top: 120px;
     }
 
-    
-}
 
+}
